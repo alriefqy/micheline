@@ -10073,7 +10073,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .jumbotron {
   height: 444px;
-  position: absolute;
+  position: relative;
   top: 80px;
   width: 100%;
   border-radius: 0px;
@@ -10179,4 +10179,55 @@ a.text-dark:hover, a.text-dark:focus {
 .jumbotron .form-control {
   height: 55px;
   padding-left: 35px;
+}
+
+.more {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 30px;
+}
+
+.more button {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  border: solid 1px #4d4d4d;
+}
+
+.container {
+  position: relative;
+  top: 85px;
+}
+
+.container .line {
+  width: 80px;
+  height: 5px;
+  border: solid 2px red;
+  background-color: red;
+  position: relative;
+  top: 0px;
+}
+
+.card-group {
+  padding: 10px;
+}
+
+.card-group .card {
+  margin: 15px;
+  position: relative;
+  top: 1px;
+  border: 0px;
+}
+
+.card-group .card button {
+  border-radius: 5px;
+  background-color: #E8E8E8;
+  font-family: sans-serif;
+  color: #4D4D4D;
+}
+
+.card-group .card .category-card, .card-group .card .time-card {
+  color: #757575;
+  font-family: sans-serif;
+  font-size: 16px;
 }
