@@ -1,0 +1,94 @@
+@import "root";
+.navbar
+{
+    background-color: $background-red;
+    height: 80px;
+    // position: fixed;
+    
+    
+        .navbar-brand{
+            position: relative;
+            left : 8px;
+            img {
+                width:230px;
+                height: 44px;
+            }
+        }
+        .collapse
+        {
+            
+            height: 200px;
+            width:300px;
+            .navbar-nav{
+                font-family: "open_sans", sans-serif;
+                font-weight: 300;
+                color : white;
+                border-left: solid 1px white;
+                border-right: solid 1px white;
+                height:80px;
+                .line
+                {
+                    height:20px;
+                    position: relative;
+                    top:30px;
+                    border: solid 0.5px white;
+                }
+                .nav-item
+                {
+                    
+                    position: relative;
+                    top:20px;
+                    color:white;
+                    
+                    
+                    a{
+                        color: white;
+                    }
+                }
+                .nav-item:first-child{
+                    padding-left:46px;
+                    
+                }
+                .nav-item:last-child{
+                    padding-right:25px;
+                    
+                    
+                    
+                }
+            }
+            .menu
+            {
+                
+               
+                z-index: 1;
+                position: relative;
+                right:10px;
+                padding-left: 30px;
+                .fa
+                {
+                    color:white;
+                    font-size: 25px;
+                    position: relative;
+                    left:10px;
+                    top:10px;
+                }
+                p{
+                    color: white;
+                    font-family: "open_sans", sans-serif;
+                    font-weight: 300;
+                    font-size:12px;
+                    position: relative;
+                    top:10px;
+                }
+               
+                
+            }
+            
+        }
+    
+    button
+    {
+        border:solid 2px white;
+        z-index: 2;
+    }
+}
