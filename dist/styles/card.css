@@ -11,22 +11,35 @@
   border: solid 1px #4d4d4d;
 }
 
-.container {
+.content {
   position: relative;
-  top: 85px;
+  top: 50px;
+  width: 1120px;
+  height: 873px;
+  left: 370px;
+  right: 393px;
+  box-sizing: border-box;
 }
 
-.container .line {
+.content .line {
   width: 80px;
   height: 5px;
-  border: solid 2px red;
-  background-color: red;
+  background-color: #BD2333;
   position: relative;
-  top: 0px;
+  top: 30px;
+}
+
+.content .text {
+  position: relative;
+  top: 55px;
+  font-family: 'Noto Serif';
 }
 
 .card-group {
-  padding: 10px;
+  position: relative;
+  top: 50px;
+  margin: 0;
+  padding: 0;
 }
 
 .card-group .card {
@@ -34,6 +47,33 @@
   position: relative;
   top: 1px;
   border: 0px;
+  width: 365px;
+}
+
+.card-group .card .card-title {
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 24px;
+  line-height: 1.29;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 55px;
+}
+
+.card-group .card .card-text {
+  color: #757575;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 0px 16px;
+  line-height: 1.5;
+  font-size: 14px;
+  max-height: 4.5em;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.card-group .card .card-img-top {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-group .card button {
