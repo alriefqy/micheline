@@ -29,8 +29,8 @@
   
   
   .line{
-    width:80px;
-    height:5px;
+    width:54px;
+    height:4px;
     
     background-color : $background_red;
     position: relative;
@@ -66,37 +66,56 @@
       box-sizing: border-box;
       margin-top:55px;
     }
-    .card-text{
-      color: #757575;
-      font-family: 'Open Sans', sans-serif;
-      margin: 0px 0px 16px;
-      line-height: 1.5;
-      font-size: 14px;
-      max-height: 4.5em;
-      overflow: hidden;
-      margin-bottom: 16px;
+    
+    .card {
+      &-text{
+        color: #757575;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px 0px 16px;
+        line-height: 1.5;
+        font-size: 14px;
+        max-height: 4.5em;
+        overflow: hidden;
+        margin-bottom: 16px;
+      }
+      &-img-top{
+        
+        height:400px;
+        object-fit: cover;
+      }
     }
-    
-    .card-img-top{
-      
-      height:400px;
-      object-fit: cover;
-    }
-    
-    
-    
-    button{
-      border-radius:5px;
-      background-color:#E8E8E8;
-      font-family: sans-serif;
-      color: #4D4D4D;
-    }
-    .category-card,.time-card
+    .sub-content
     {
-      color : #757575;
-      font-family: sans-serif;
-      font-size: 16px;
+      font-family: 'Open sans', sans-serif;
+      color: #757575; 
+      margin-right: 8px;
+      border:solid 2px red;
+      font-weight: 200;
+      .text-left{
+        float: left;
+      }
+      .text-right
+      {
+        .time{
+          width:150px;
+          float: left;
+          .time-text{
+            float: left;
+            margin-left: 15px;
+          }
+          .fa{
+            float: left;
+            margin:5px;
+            margin-left:15px;
+            color: #757575;
+          }
+        }
+      }
     }
+    
+    
+    
+    
   }
   
 }
